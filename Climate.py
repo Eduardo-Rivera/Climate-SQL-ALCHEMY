@@ -142,4 +142,4 @@ def startend(start,end):
     return jsonify(start_end_data)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=False)
